@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.volcano-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.volcano-info p {
+    line-height: 1.6;
+}
+
+.volcano-types ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
